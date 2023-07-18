@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iBlog - Heaven for bloggers</title>
+</head>
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left ">
+           
+        <span><a href="/blogpost.html"><img src="data:image/png;base64,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" width="60px" alt=""></span>
+    </a><ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+           
+        </ul> 
+        </div>
+        <div class="nav-right ">
+            <form action="/search.html" method="get">
+            <input class="form-input" type="text" name="query" placeholder="Article Search">
+            <button class="btn">Search</button>
+        </form>
+        </div>
+
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+        </div>
+    <div class="  m-auto content max-width-1 my-2">
+        
+        <div class="content-left">
+            <h1>The Heaven for bloggers</h1>
+            <br>
+            
+            <p>iBlog is a website which lets you submit an article which upon appapproval will be up on our website and you can get a good amount of reach from here!</p>
+             <br>
+             <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veniam animi iusto obcaecati id vero, libero alias corporis rem, error ipsum culpa adipisci impedit rerum quisquam dolorem fuga quasi neque?</p>
+        </div>
+        <div class="content-right">
+            <img src="https://nationaltoday.com/wp-content/uploads/2022/08/1-World-Typing-Day.jpg">
+        </div>
+    </div>
+    </div>
+    <div class="max-width-1 m-auto"> <hr> </div>
+    <div class="home-articles max-width-1 m-auto font2">
+        <div class="year-box">
+            <h3>Year</h3>
+            <div>
+            <input type="radio" name="year" id="" >2020
+        </div>
+        <div>
+            <input type="radio" name="year" id="" >2021
+        </div>
+
+        </div>
+        <h2>Featured Articles</h2>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="https://st.depositphotos.com/1000128/2002/i/450/depositphotos_20021363-stock-photo-electronic-and-paper-media-concept.jpg">
+            </div>
+              
+          
+            <div class="home-article-content font2">
+                <a href="blogpost.html"><h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></a>
+                
+                <div>Author Name</div>
+                <span>07 January | 6 min read</span>
+</div>
+            </div>
+            <div class="home-article">
+                <div class="home-article-img">
+                    <img src="https://www.shutterstock.com/shutterstock/photos/2172155487/display_1500/stock-photo-hands-combine-puzzle-pieces-art-collage-2172155487.jpg">
+                </div>
+                <div class="home-article-content font2">
+                    <a href="blogpost.html"><h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></a>
+                    
+                    <div>Author Name</div>
+                    <span>07 January | 6 min read</span>
+    </div>
+                </div>
+                <div class="home-article">
+                    <div class="home-article-img">
+                        <img src="https://cdn.xxl.thumbs.canstockphoto.com/newspapers-and-magazines-stock-pictures-of-a-stack-of-newspapers-or-magazines-picture_csp1366157.jpg">
+                    </div>
+                      
+              
+                <div class="home-article-content font2">
+                    <a href="blogpost.html"> <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></a>
+                    <div>Author Name</div>
+                    <span>07 January | 6 min read</span>
+    </div>
+            </div>
+             <div class="home-article">
+                    <div class="home-article-img">
+                        <img src="https://media.istockphoto.com/id/1177502660/photo/young-woman-reading-the-news-on-a-modern-tablet-computer-while-sitting-in-her-living-room.jpg?s=612x612&w=0&k=20&c=oEfXfMaKkgAVfshd7yk_bxGk2iQncWueLVlTL__gWWg=">
+                    </div>
+                      
+                  
+                <div class="home-article-content font2">
+                    <a href="blogpost.html"> <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></a>
+                   
+                    <div>Author Name</div>
+                    <span>07 January | 6 min read</span>
+                    </div>
+                    </div>
+               
+                        <div class="home-article">
+                        <div class="home-article-img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxfO2a8Ia5WZb1UTA_RsvUoqvEvjVLTi9uRFGsdz0O03W5cGtgZBHomACH6ikbwrhk-Ow&usqp=CAU">
+                        </div>
+                          
+                      
+                 <div class="home-article-content font2">
+                        <a href="blogpost.html"> <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></a>
+                       
+                        <div>Author Name</div>
+                        <span>07 January | 6 min read</span>
+                            
+                            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="https://www.shutterstock.com/image-photo/unrecognizable-black-woman-communicating-her-260nw-1959786994.jpg">
+            </div>
+              
+          
+     <div class="home-article-content font2">
+            <a href="blogpost.html"> <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></a>
+           
+            <div>Author Name</div>
+            <span>07 January | 6 min read</span>
+            </div>
+            </div>
+            <div class="home-article">
+                <div class="home-article-img">
+                    <img src="https://images.all-free-download.com/images/graphiclarge/nostalgic_items_on_the_desktop_picture_1_166379.jpg">
+                </div>
+                  
+              
+         <div class="home-article-content font2">
+                <a href="blogpost.html"> <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></a>
+               
+                <div>Author Name</div>
+                <span>07 January | 6 min read</span>
+                </div>
+                </div>
+    <div class="footer ">
+        <p>Copyright &copy;iBlog.com</p>
+       <a href="https://nationaltoday.com/wp-content/uploads/2022/08/1-World-Typing-Day.jpg">Vector Credits: Vecteezy</a>
+    </div>
+</body>
+</html>

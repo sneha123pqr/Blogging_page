@@ -1,0 +1,22 @@
+
+.contact-content {
+    display: block;
+    height: 395px;
+   background-color: white;
+   margin-top: 32px;
+   padding: 10px;
+  position:relative;
+ 
+}
+
+.contact-content::after {
+    content:"";
+    background-image:"https://nationaltoday.com/wp-content/uploads/2022/08/1-World-Typing-Day.jpg";
+    position: absolute;
+    top:0;
+    width:100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+}

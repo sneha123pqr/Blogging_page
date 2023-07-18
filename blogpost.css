@@ -1,0 +1,34 @@
+.post-img{
+    height: 404px;
+    overflow: hidden;
+   
+}
+ .post-img img{
+    width:100%;
+ }
+.blog-post-content{
+    color: rgb(190, 48, 233);
+   
+
+}
+.blog-post-content h1{
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+.content::after {
+    background-color: white;
+}
+
+.blogpost-meta{
+    background-color:rgb(251, 252, 251);
+    
+    justify-content: space-between;
+    color: black;
+}
+
+.author-info{
+    margin: 12px 0;
+}
+
